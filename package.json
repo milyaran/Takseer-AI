@@ -1,0 +1,17 @@
+{
+  "name": "takseer-ai",
+  "version": "0.2.2",
+  "private": true,
+  "description": "Takseer AI — agent penaksir harga gadai (PWA + real-time market scraper)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.56.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

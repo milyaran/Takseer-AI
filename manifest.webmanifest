@@ -1,0 +1,42 @@
+{
+  "name": "Takseer AI — Agent Penaksir Harga Gadai",
+  "short_name": "Takseer",
+  "description": "Empat AI agent untuk penaksiran gadai: inspeksi visual, scraping harga pasar, valuasi risiko, dan audit kepatuhan.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#F6F8FA",
+  "theme_color": "#0D8A48",
+  "categories": ["finance", "business", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Penaksiran baru",
+      "short_name": "Taksir",
+      "url": "./index.html#penaksiran",
+      "description": "Mulai penaksiran agunan baru"
+    },
+    {
+      "name": "Riwayat & audit",
+      "short_name": "Riwayat",
+      "url": "./index.html#riwayat"
+    }
+  ]
+}

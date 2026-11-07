@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Takseer AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#13A75A"/>
+      <stop offset="0.55" stop-color="#0D8A48"/>
+      <stop offset="1" stop-color="#075028"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7E49B"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(256 256) scale(0.74) translate(-256 -256)">
+    <g stroke="#ffffff" stroke-width="22" stroke-linecap="round" fill="none">
+      <path d="M256 136v244"/>
+      <path d="M198 380h116"/>
+      <path d="M156 184h200"/>
+    </g>
+    <g fill="url(#gold)">
+      <path d="M156 184 L112 272 Q156 316 200 272 Z"/>
+      <path d="M356 184 L312 272 Q356 316 400 272 Z"/>
+    </g>
+    <circle cx="256" cy="184" r="15" fill="#F7E49B"/>
+  </g>
+</svg>
